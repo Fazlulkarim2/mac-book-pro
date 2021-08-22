@@ -11,12 +11,96 @@
 </head>
 
 <body>
-    <header>
-        <h1>this is mac book assignment !!! </h1>
-    </header>
-    <main>
+    <main class="w-3/4 mx-auto grid grid-cols-2 mt-8">
+
+        <section>
+            <img class="w-3/4" src="images/mac.png" alt="">
+        </section>
+        <section>
+            <h1 class="text-3xl font-semibold mb-6">Customize Your Blue 24-inch iMac with Apple M1 Chip.</h1>
+            <p class="text-sm text-gray-500">Apple M1 chip with 8-core CPU with 4 performance core and 4
+                efficiency
+                core,
+                7-core GPU, and
+                16-core Neural Engine 8GB unified memory 256GB storage two Thunderbolt/USB 4 ports Magic
+                Mouse
+                Magic-keyboard US english</p>
+            <!-- memory section  -->
+            <section class="pt-8">
+                <h3 class="text-sm font-semibold mb-1">Memory</h3>
+                <div class="grid grid-cols-3 gap-2">
+                    <div>
+                        <button id="8gb-memory-button" class="border-2 rounded px-3 py-2 text-sm text-gray-500 ">8gb
+                            unified
+                            memory</button>
+                    </div>
+                    <div>
+                        <button id="16gb-memory-button" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">116gb
+                            unified
+                            memory</button>
+                    </div>
+                </div>
+            </section>
+            <!-- storage section  -->
+            <section class="mt-8 ">
+                <h3 class="text-sm font-semibold mb-1">storage</h3>
+                <div class="grid grid-cols-3 gap-2">
+                    <div>
+                        <button id="256gb-storage" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">256GB SSD
+                            storage</button>
+                    </div>
+                    <div>
+                        <button id="512gb-storage" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">512GB SSD
+                            storage</button>
+                    </div>
+                    <div>
+                        <button id="1tb-storage" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">1TB SSD
+                            storage</button>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-8">
+                <h3 class="text-sm font-semibold mb-1">Choose your delivery option </h3>
+                <div class="grid grid-cols-3 gap-2">
+                    <div>
+                        <button id="free-delivery" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">Friday,
+                            Aug 25 Free Prime
+                            Delivery</button>
+                    </div>
+                    <div>
+                        <button id="charge-delivery" class="border-2 rounded px-3 py-2 text-sm text-gray-500  ">Friday,
+                            Aug 21 Delivery
+                            charge $20</button>
+                    </div>
+                </div>
+            </section>
+            <!-- total price section  -->
+            <section class="mt-8 grid grid-cols-2 mb-8">
+                <div class="text-xs font-bold text-gray-700">
+                    <h5 class="mb-5">Best Price</h5>
+                    <h5 class="mb-5">Extra Memory Cost</h5>
+                    <h5 class="mb-5">Extra storage Cost</h5>
+                    <h5 class="mb-5">Delivery charge</h5>
+                    <hr class=" border-t-2 border-indigo-700 ">
+                    <h5 class="mb-5">Total Price</h5>
+                </div>
+
+                <div class="text-xs font-bold text-gray-700">
+                    <h5 class="mb-5">$<span id="best-price">1299</span> </h5>
+                    <h5 class="mb-5">$<span id="memory-cost">0</span> </h5>
+                    <h5 class="mb-5">$ <span id="storage-cost">0</span> </h5>
+                    <h5 class="mb-5">$<span id="delivery-cost">0</span> </h5>
+                    <hr class=" border-t-2 border-indigo-700 w-12">
+                    <h5>$<span id="total-price">1299</span> </h5>
+                </div>
+            </section>
+        </section>
 
     </main>
+    <script>
+
+    </script>
+    <script src="js/mac.js"></script>
 </body>
 
 </html>
